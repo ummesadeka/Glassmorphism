@@ -33,3 +33,16 @@
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(0,0,0, 0.1)
 }
+
+@media (max-width: 992px) {
+.content{
+        transform: translateX(00px);
+        max-width: 100%;
+        padding: 30px;
+        margin-top: -40px;
+    }
+    .content a{
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}

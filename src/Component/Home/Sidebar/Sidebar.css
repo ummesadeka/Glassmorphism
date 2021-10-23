@@ -32,3 +32,14 @@
 .side li:hover a img{
     transform: scale(0.6) rotate(360deg);
 }
+
+@media (max-width: 992px){
+    .side{
+        position: relative;
+        flex-direction: row;
+        left: 0;  
+    }
+    .side li a{
+        margin: 0 10px;
+    }
+}

@@ -11,3 +11,18 @@
         transform: translateY(100px);
     }
 }
+
+@media (max-width: 992px) {
+    .imgBox{
+        margin-bottom: 50px;
+    }
+
+    @keyframes animate{
+        0%, 100% {
+            transform: translateY(-20px);
+        }
+        50% {
+            transform: translateY(20px);
+        }
+    }
+}

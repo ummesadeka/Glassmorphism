@@ -6,11 +6,13 @@ import './Sidebar.css'
 
 function Sidebar() {
     return (
-        <ul className="side">
+      <div>
+            <ul className="side">
            <li><a href="#"><img src={facebook} alt="" /></a></li>
            <li><a href="#"><img src={instagram} alt="" /></a></li>
            <li><a href="#"><img src={twitter} alt="" /></a></li>
         </ul>
+      </div>
     )
 }
 

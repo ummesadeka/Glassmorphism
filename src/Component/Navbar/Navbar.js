@@ -4,8 +4,6 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        
-            
                 <header>
                     <a href="#" className="logo"> Abyaz</a>
                     <ul>
@@ -14,11 +12,7 @@ const Navbar = () => {
                         <li><a href="#">Team</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                </header>
-                
-           
-            
-        
+                </header> 
     );
 };
 
